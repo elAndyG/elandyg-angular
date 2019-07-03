@@ -5,7 +5,7 @@ dist: trusty
 sudo: required
 branches:
   only:
-  - dev
+  - master
 script:
 - npm run lint
 - npm run test-headless
@@ -16,4 +16,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: dist/elandyg-angular
   on:
-    branch: dev
+    branch: master
