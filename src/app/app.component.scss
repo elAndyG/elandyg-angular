@@ -2,7 +2,7 @@ main {
   padding-top: 1.875rem;
   padding-bottom: 3.75rem;
 
-  .profile-inner {
+  .profile-area {
     max-width: 64rem;
     background-color: white;
     margin: auto;
@@ -13,5 +13,27 @@ main {
     flex-direction: row;
     border-bottom: 1px solid #f2f2f2;
     // padding: 2.3em 0;
+    .avatar {
+      width: 220px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  section.profile-section {
+    h2 {
+      font-size: 1.25rem;
+      position: relative;
+      color: #434e5e;
+    }
+
+    h2:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1.5px;
+      background: #8d9aad;
+    }
   }
 }
