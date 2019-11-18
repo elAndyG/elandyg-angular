@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  background-color: #f7f8fa;
+  font-family: "Roboto", sans-serif;
+  background-image: url("./assets/laptop.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
