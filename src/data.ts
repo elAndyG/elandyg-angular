@@ -12,7 +12,7 @@ export const experiences: Experience[] = [
     timeSpan: 'May 2018 - Present',
     description:
       // tslint:disable-next-line:max-line-length
-      "Rebuilt Marlin's flagship content player to dynamically display videos, images, html, twitter feeds and more from any location. Led the team in building a content manager for creating, editing and scheduling content.",
+      'Rebuilt Marlin\'s flagship content player to dynamically display videos, images, html, twitter feeds and more from any location. Led the team in building a content manager for creating, editing and scheduling content.',
     technologies: 'Angular 8, .Net Core, Sql Server'
   },
   {
