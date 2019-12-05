@@ -1,0 +1,27 @@
+
+ul {
+  margin-left: 10px;
+  li {
+    border-left: solid 2px #ececec;
+    list-style: none;
+    padding: 0 0 40px 30px;
+    &:before {
+      content: '';
+      border: solid 2px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50px;
+      font-size: 8px;
+      margin-left: -35px;
+      font-weight: 400;
+      background: #fff;
+      display: block;
+      position: absolute;
+      margin-top: -1px;
+    }
+    &:last-child {
+      border: 0;
+      margin-left: 2px;
+    }
+  }
+}

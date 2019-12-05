@@ -1,0 +1,11 @@
+<h3 class="job-title">
+  {{ experience.title }}
+</h3>
+<span>{{ experience.company }}</span>
+<span *ngIf="experience.timeSpan && experience.timeSpan !== ''">{{
+  experience.timeSpan
+}}</span>
+<p class="description">
+  {{ experience.description }}
+</p>
+<p>Tech stack: {{ experience.technologies }}</p>
