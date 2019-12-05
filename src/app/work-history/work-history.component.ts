@@ -11,6 +11,7 @@ export class WorkHistoryComponent implements OnInit {
   constructor(private workHistoryService: WorkHistoryService) {}
   workHistory: Experience[];
   splitPosition = 0;
+
   ngOnInit() {
     this.workHistory = this.workHistoryService.get();
     this.splitPosition = Math.ceil(this.workHistory.length / 2);

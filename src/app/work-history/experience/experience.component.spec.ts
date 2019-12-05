@@ -8,18 +8,24 @@ describe('ExperienceComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ExperienceComponent ]
-    })
-    .compileComponents();
+      declarations: [ExperienceComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ExperienceComponent);
     component = fixture.componentInstance;
+    component.experience = {
+      company: '',
+      description: '',
+      technologies: '',
+      timeSpan: '',
+      title: ''
+    };
     fixture.detectChanges();
   });
 
-  // it('should create', () => {
-  //   expect(component).toBeTruthy();
-  // });
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
 });
