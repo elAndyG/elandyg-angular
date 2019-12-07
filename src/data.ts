@@ -12,7 +12,7 @@ export const experiences: Experience[] = [
     timeSpan: 'May 2018 - Present',
     description:
       // tslint:disable-next-line:max-line-length
-      'Rebuilt Marlin\'s flagship content player to dynamically display videos, images, html, twitter feeds and more from any location. Led the team in building a content manager for creating, editing and scheduling content.',
+      "Rebuilt Marlin's flagship content player to dynamically display videos, images, html, twitter feeds and more from any location. Led the team in building a content manager for creating, editing and scheduling content.",
     technologies: 'Angular 8, .Net Core, Sql Server'
   },
   {
@@ -38,7 +38,7 @@ export const experiences: Experience[] = [
     title: 'Software Developer (Junior to Senior)',
     description:
       // tslint:disable-next-line: max-line-length
-      'Engineered a full service E-Prescribing system to communicate with pharmacies across the united states. Interfaced with a 3rd party Patient Portal to automate mapping of user inputs to practice charts. Created a notification suite to proactively alert support of issues within a client\'s solution.',
+      "Engineered a full service E-Prescribing system to communicate with pharmacies across the united states. Interfaced with a 3rd party Patient Portal to automate mapping of user inputs to practice charts. Created a notification suite to proactively alert support of issues within a client's solution.",
     timeSpan: 'Apr 2005 - Jul 2012',
     technologies: ''
   },
@@ -51,4 +51,40 @@ export const experiences: Experience[] = [
     timeSpan: 'Jan 2001 - Apr 2005',
     technologies: ''
   }
+];
+
+export const skillsIKnow = [
+  { skill: 'angular' },
+  { skill: 'csharp' },
+  { skill: 'css' },
+  { skill: 'git' },
+  { skill: 'html' },
+  { skill: 'js' },
+  { skill: 'karma' },
+  { skill: 'markdown' },
+  { skill: 'nodemon' },
+  { skill: 'powershell' },
+  { skill: 'scss' },
+  { skill: 'sql' },
+  { skill: 'swagger' },
+  { skill: 'tfs' },
+  { skill: 'travis' },
+  { skill: 'typescript' },
+  { skill: 'vscode' },
+  { skill: 'visual-tudios' },
+  { skill: 'yarn' }
+];
+
+export const skillsIveTried = [
+  { skill: 'babel' },
+  { skill: 'cypress' },
+  { skill: 'docker' },
+  { skill: 'ember' },
+  { skill: 'jest' },
+  { skill: 'node' },
+  { skill: 'python' },
+  { skill: 'storybook' },
+  { skill: 'vue' },
+  { skill: 'webpack' },
+  { skill: 'yaml' }
 ];
